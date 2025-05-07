@@ -41,9 +41,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>We need access to your health data to track your steps, heart rate, and other health metrics to provide personalized insights</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>We need to save health data to accurately track your progress and provide personalized insights</string>
 </dict>
 </plist>

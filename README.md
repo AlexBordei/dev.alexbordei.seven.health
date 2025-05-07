@@ -11,6 +11,31 @@ A Flutter mobile application for health tracking and monitoring built with clean
 - RESTful API client
 - Error handling with Failure classes
 - Unit testing support
+- Health data integration using HealthKit (iOS) and Health Connect (Android)
+- Real-time health stats including steps, water intake, heart rate, and workouts
+
+## Health Data Integration
+
+The app integrates with the device's health services:
+
+### iOS (HealthKit)
+- Requires iOS 14.0+
+- Uses `health` package to connect with Apple HealthKit
+- Permissions configured in Info.plist and app capabilities
+
+### Android (Health Connect)
+- Integration with Google's Health Connect API
+- Requires Android devices with Health Connect app installed
+- Permissions declared in AndroidManifest.xml
+- Uses FlutterFragmentActivity for Android 14 compatibility
+
+Health data permissions include:
+- Step counting
+- Water intake tracking
+- Heart rate monitoring
+- Workout time tracking
+- Sleep analysis
+- Various body measurements
 
 ## Architecture
 

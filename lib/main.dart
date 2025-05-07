@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sevenhealth/core/di/injection.dart';
 import 'package:sevenhealth/core/theme/app_theme.dart';
-import 'package:sevenhealth/features/auth/presentation/pages/login_page.dart';
+import 'package:sevenhealth/features/dashboard/presentation/pages/dashboard_page.dart';
+import 'package:sevenhealth/main_navigation.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const LoginPage(),
+      child: const MainNavigation(),
     );
   }
 }
